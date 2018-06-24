@@ -25,9 +25,20 @@ Publications
 Professional Experience
 =======================
 
-2015-today
+2018-present
+:   **Founder - embod.ai**
+:   embod.ai is a start-up where researchers, students and hobbiests can build and observe AI agents in Massively Multiplayer Online environments.
+    The goal of embod.ai is to make AI based gaming and competitions a mainstream e-sport. 
+    Beta release: <https://medium.com/@chris.bamford/embod-ai-come-join-the-beta-efcdbc85f524>
+    Website: <https://embod.ai>
+
+2018 Q2
+:   **EF10LDN Cohort Member - Entrepreneur First**
+:   Entrepreneur First is the UK's most successful startup accellerator programme. Entrepreneur First gathers up to 100 highly talented individuals in two cohorts a year and helps them to build globally important companies.
+
+2015-2017
 :   **Lead Research and Development engineer at import.io**
-:   import.io is a start-up of 10-50 employees that specializes in making it easy for non-technical users to gather and structure data from the web.
+:   import.io specializes in making it easy for non-technical users to gather and structure data from the web.
     I have worked at import.io since it was founded in 2012. I have worked mainly on designing and creating innovative technologies to generate a leading edge over any competitors. I have worked mainly in Java when building infrastructure and backend projects, and Python when doing Machine Learning.
 :   Some of the projects of which I have had significant input and I have enjoyed working on:
 :   - **Bees** - import.io's highly distributed and scalable querying and messaging platform. Bees handles many challenges that are faced when building a distributed web extraction system, such as variable and unknown network latency, 
@@ -50,10 +61,6 @@ Professional Experience
     - **Object Store** - A distributed platform for storing and retrieving data objects from an underlying database, originally a Percona SQL database was stored, with binary attachment storage on amazon S3, Later this was migrated to use amazon        auroraDB. 
     - **Job Service** - The precursor system to "bees", handled 200 user web extraction requests a second, distributing the requests around a cluster of 50 servers at full scale. Used Hazelcast for distributed map and queueing system.
       
-2010-2012
-:   **CTO at TouchGo Technology**
-:   - Responsible for the development and integration of all technologies involved in the vending machine which won the Auto Vending Innovation Award 2010 for Machine Intelligence.
-
 Open Source Contributions
 =========================
 
@@ -66,8 +73,13 @@ Open Source Contributions
 :   Added a statistics callback which contains precision and recall metrics for multi-label classification problems.
 :   Commits: <https://github.com/NervanaSystems/neon/commits?author=Bam4d>
 
-Personal Projects
-=================
+Notable Personal Projects
+=========================
+
+**K-dimensional connect-N**
+:   This was an experiment in Deep Q Learning with the game connect-4. 
+:   The game was expanded to allow any number of dimensions and any length of player tokens for a winning board layout.
+:   Blog Post: <https://bam4d.github.io/#/post/k-dimensional-connect-n--part-1-environment/2>
 
 **BLIF**
 :   The successor to Neuretix, a spiking neural network library that takes inspiration from gradient descent based learning techniques in deep learning and applies it to the same leaky integrate and fire models that neuretix uses. 
@@ -87,6 +99,7 @@ Personal Projects
 :   Although I did not contribute this implementation back to the Keras group, I enjoyed implementing the differentiable stack algorithm and seeing it work.
 :   Github: <https://github.com/Bam4d/keras/tree/neural-stack>
 
+
 Key Skills
 ==========
 
@@ -100,7 +113,7 @@ Java
     I have used Spring, SpringBoot, Hazelcast, Jedis, Jackson, Lettuce, Jetty 8/9, mockito, cucumber, gherkin and Google libraries such as Guava, Lombok and Futures.
 
 Amazon AWS
-:   I have used a large number of features of amazon aws while at import.io and in some personal projects. I am comfortable with using Lambda, CloudFormation, ECR, ECS, ElasticBeanstalk, Route53, S3, EC2, Redshift, AuroraDB and ElastiCache
+:   I have used a large number of features of amazon aws while at import.io, embod.ai and in some personal projects. I am comfortable with using Lambda, CloudFormation, ECR, ECS, ElasticBeanstalk, Route53, S3, EC2, Redshift, AuroraDB and ElastiCache
 
 C/C++
 :   Neuretix, Roxxy and a few other of my personal projects and open source contributions not mentioned here have been in C/C++. C++ is probably my favourite programming language. It allows you to squeeze performance out of many algorithms and 
