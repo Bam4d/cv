@@ -25,7 +25,13 @@ Publications
 Professional Experience
 =======================
 
-2018-present
+2018 Q4-present
+:   **PhD - Artificial Intelligence in Gaming, Queen Mary University**
+:   My research interests are primarily in Deep Reinforcement leaning particularly using model-based planning as a method of improving sample efficiency and model accuracy.
+    Model-based methods are a particuarly interesting area of research as they allow artificial agents to use tools which have psychological parallels such as imagination, curiosity and empowerment.
+    I believe that these tools are a step towards general artificial intelligence.  
+
+2018 Q3
 :   **Founder - embod.ai**
 :   embod.ai is a start-up where researchers, students and hobbiests can build and observe AI agents in Massively Multiplayer Online environments.
     The goal of embod.ai is to make AI based gaming and competitions a mainstream e-sport. 
@@ -58,8 +64,7 @@ Professional Experience
 :   - **"Magic"** - An algorithm that finds and extracts lists of records in a webpage. This product made use of several different matching and allocation techniques such as Jaccard distance, 
       Hirschberg's algorithm and Munkres(Hungarian) algorithm. The average time to detect and extract the top "most likely" tables was less than a second. 
       *The success of this project lead me to become the Lead Research and Development engineer.*
-    - **Object Store** - A distributed platform for storing and retrieving data objects from an underlying database, originally a Percona SQL database was stored, with binary attachment storage on amazon S3, Later this was migrated to use amazon        auroraDB. 
-    - **Job Service** - The precursor system to "bees", handled 200 user web extraction requests a second, distributing the requests around a cluster of 50 servers at full scale. Used Hazelcast for distributed map and queueing system.
+    - **Object Store** - A distributed platform for storing and retrieving data objects from an underlying database, originally a Percona SQL database was stored, with binary attachment storage on amazon S3, Later this was migrated to use amazon auroraDB. 
       
 Open Source Contributions
 =========================
@@ -81,14 +86,9 @@ Notable Personal Projects
 :   The game was expanded to allow any number of dimensions and any length of player tokens for a winning board layout.
 :   Blog Post: <https://bam4d.github.io/#/post/k-dimensional-connect-n--part-1-environment/2>
 
-**BLIF**
-:   The successor to Neuretix, a spiking neural network library that takes inspiration from gradient descent based learning techniques in deep learning and applies it to the same leaky integrate and fire models that neuretix uses. 
-:   This project is a work in progress and supercedes the Neuretix project.
-:   Github: <https://github.com/Bam4d/BLIF>
-
-**Roxxy**
-:   A headless rendering engine that wraps the Chromium embedded framework with Facebook's proxygen libraries. This allows a browser to act as a server, requesting full rendered web pages using an API. It also allows multiple web requests to be         made in parallel.
-:   Github: <https://github.com/Bam4d/Roxxy>
+**Python-microRTS**
+:   A python library for interacting with the microRTS AI research environment.
+:   Github: <https://github.com/Bam4d/python-microRTS> 
 
 **Neuretix**
 :   A spiking neural network implementation using the models I developed as part of my two publications.
@@ -104,17 +104,15 @@ Key Skills
 ==========
 
 Python
-:   I have worked with python in many different types of projects, from research with deep learning libraries such as neon, keras, theano, tensorflow and scikitlearn; To building REST API services using 
+:   I have worked with python in many different types of projects, from research with deep learning libraries such as neon, keras, pytorch, tensorflow and scikitlearn; To building REST API services using 
     libraries such as Flask when productionizing machine learning models.
 
 Java
-:   I am proficient in Java 8 paradigms such as futures, streams, lambdas and fluent APIs. I have also been following the release notes for java 9 and have started incorporating Reactive streams (Spring Project Reactor) into the
-    code that I am working on.
+:   The majority of my work at import.io was using Java 8. I have been using java 11 recently on personal projects.
     I have used Spring, SpringBoot, Hazelcast, Jedis, Jackson, Lettuce, Jetty 8/9, mockito, cucumber, gherkin and Google libraries such as Guava, Lombok and Futures.
 
 Amazon AWS
 :   I have used a large number of features of amazon aws while at import.io, embod.ai and in some personal projects. I am comfortable with using Lambda, CloudFormation, ECR, ECS, ElasticBeanstalk, Route53, S3, EC2, Redshift, AuroraDB and ElastiCache
 
 C/C++
-:   Neuretix, Roxxy and a few other of my personal projects and open source contributions not mentioned here have been in C/C++. C++ is probably my favourite programming language. It allows you to squeeze performance out of many algorithms and 
-    programming methods where other programming languages are too restrictive.
+:   Several of my personal projects and open source contributions not mentioned here have used C/C++.
